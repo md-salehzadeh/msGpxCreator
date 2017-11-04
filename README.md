@@ -1,8 +1,8 @@
 # GpxCreator
 this script helps you create Gpx file and download it from your browser.
 
-**For example:**
+**how:**
 ```objc
-view.backgroundColor = [UIColor orangeColor];
-[UIApplication sharedApplication].delegate;
+DownloadGpxFile($GpxTitle, $waypoints, $trackpoints, $file, $creator);
 ```
+and Done!
