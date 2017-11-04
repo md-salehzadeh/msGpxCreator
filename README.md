@@ -15,5 +15,3 @@ $msGpxCreator->create();
 $msGpxCreator->download();
 ```
 and Done!
-(Downloads\Compressed\msGpxCreator-master.zip)
-salam
