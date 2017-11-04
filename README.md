@@ -10,8 +10,8 @@ $msGpxCreator->setFilePath('path/to/file/');
 $msGpxCreator->setFileName('GPX-12365484964');
 $msGpxCreator->setWaypoints($waypoints);
 $msGpxCreator->setTrackpoints($trackpoints);
-$msGpxCreator->setCreator('https://yourCompany.com');
-$msGpxCreator->create();
+$msGpxCreator->setCreator("https://yourCompany.com");
+$file = $msGpxCreator->create();
 $msGpxCreator->download();
 ```
 and Done!
