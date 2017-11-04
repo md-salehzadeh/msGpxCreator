@@ -1,8 +1,8 @@
-# GpxCreator
-this script helps you create Gpx file and download it from your browser.
+# msGpxCreator
+this script helps you simply create Gpx files and download it from your browser.
 
 **how to use:**
 ```objc
-DownloadGpxFile($GpxTitle, $waypoints, $trackpoints, $file, $creator);
+xxx
 ```
 and Done!
