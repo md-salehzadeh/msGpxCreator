@@ -15,6 +15,28 @@ $file = $msGpxCreator->create();
 $msGpxCreator->download();
 ```
 
+
+**waypoints and trackpoints parameters example:**
+```php
+$waypoints = [
+  [0] => [
+    [0] => 37.52843
+    [1] => 49.10734
+  ]
+
+  [1] => [
+    [0] => 37.52774
+    [1] => 49.10903
+  ]
+
+  [2] => [
+    [0] => 37.5304
+    [1] => 49.10892
+  ]
+];
+```
+
+
 **how to get waypoints and trackpoints parameters:**
 ```javascript
 function getWaypointsAndStepsForGpx() {
