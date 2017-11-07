@@ -56,7 +56,8 @@ $trackpoints = [
 **how to get waypoints and trackpoints parameters from current map (google directions api)**
 ```javascript
 function getWptAndTrkptForGpx() {
-//  var directionsDisplay = new google.maps.DirectionsRenderer({...});
+//  var directionsDisplay = new google.maps.DirectionsRenderer({...}); 
+//  it's your DirectionsRenderer variable
   var currentDirections = directionsDisplay.getDirections();
   var route = currentDirections.routes[0];
   var trkpts = route.overview_path;
