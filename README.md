@@ -1,7 +1,7 @@
 # msGpxCreator
 this script helps you simply create Gpx files and download it from your browser.
 
-**how to use:**
+**how to use**
 ```php
 include_once "some/path/to/msGpxCreator/msGpxCreator.php";
 $msGpxCreator = new msGpxCreator();
@@ -16,7 +16,7 @@ $msGpxCreator->download();
 ```
 
 
-**waypoints and trackpoints parameters example:**
+**waypoints and trackpoints parameters example**
 ```php
 $waypoints = [
   [
@@ -53,7 +53,7 @@ $trackpoints = [
 ```
 
 
-**how to get waypoints and trackpoints parameters:**
+**how to get waypoints and trackpoints parameters from current map(google directions api)**
 ```javascript
 function getWaypointsAndStepsForGpx() {
   var currentDirections = directionsDisplay.getDirections();
