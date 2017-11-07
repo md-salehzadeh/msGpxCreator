@@ -55,7 +55,7 @@ $trackpoints = [
 
 **how to get waypoints and trackpoints parameters from current map (google directions api)**
 ```javascript
-function getWaypointsAndStepsForGpx() {
+function getWptAndTrkptForGpx() {
   var currentDirections = directionsDisplay.getDirections();
   var route = currentDirections.routes[0];
   var trkpts = route.overview_path;
@@ -89,7 +89,7 @@ function getWaypointsAndStepsForGpx() {
   return coord;
 }
 
-var coord = getWaypointsAndStepsForGpx();
-var wpts = JSON.stringify(coord.wpt);
-var trkpts = JSON.stringify(coord.trkpt);
+var coord = getWptAndTrkptForGpx();
+var waypoints = JSON.stringify(coord.wpt);
+var trackpoints = JSON.stringify(coord.trkpt);
 ```
