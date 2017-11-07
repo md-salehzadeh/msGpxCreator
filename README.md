@@ -2,10 +2,10 @@
 this script helps you simply create Gpx files and download it from your browser.
 
 **how to use:**
-```objc
+```php
 include_once "some/path/to/msGpxCreator/msGpxCreator.php";
 $msGpxCreator = new msGpxCreator();
-$msGpxCreator->setGpxTitle("Gpx title");
+$msGpxCreator->setGpxTitle("Gpx title");// Optional -> default: 'Gpx file' (highly recommended to be set)
 $msGpxCreator->setFilePath("path/to/file/");
 $msGpxCreator->setFileName("GPX-12365484964");
 $msGpxCreator->setWaypoints($waypoints);
