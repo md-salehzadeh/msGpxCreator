@@ -16,7 +16,7 @@ $msGpxCreator->download();
 ```
 
 **how to get waypoints and trackpoints parameters:**
-```javacsript
+```javascript
 function getWaypointsAndStepsForGpx() {
   var currentDirections = directionsDisplay.getDirections();
   var route = currentDirections.routes[0];
