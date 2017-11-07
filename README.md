@@ -19,19 +19,17 @@ $msGpxCreator->download();
 **waypoints and trackpoints parameters example:**
 ```php
 $waypoints = [
-  [0] => [
-    [0] => 37.52843
-    [1] => 49.10734
-  ]
-
-  [1] => [
-    [0] => 37.52774
-    [1] => 49.10903
-  ]
-
-  [2] => [
-    [0] => 37.5304
-    [1] => 49.10892
+  [
+    37.52843,
+    49.10734
+  ],
+  [
+    37.52774,
+    49.10903
+  ],
+  [
+    37.5304,
+    49.10892
   ]
 ];
 ```
@@ -77,5 +75,3 @@ var coord = getWaypointsAndStepsForGpx();
 var wpts = JSON.stringify(coord.wpt);
 var trkpts = JSON.stringify(coord.trkpt);
 ```
-
-and Done!
