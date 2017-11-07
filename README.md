@@ -20,6 +20,24 @@ $msGpxCreator->download();
 ```php
 $waypoints = [
   [
+    37.5284308,
+    49.1073439,
+    'description for waypoint #1'
+  ],
+  [
+    37.5194876,
+    49.034353,
+    'description for waypoint #2'
+  ],
+  [
+    37.6235526,
+    48.7989885,
+    'description for waypoint #3'
+  ]
+];
+
+$trackpoints = [
+  [
     37.52843,
     49.10734
   ],
