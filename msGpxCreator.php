@@ -47,7 +47,7 @@ class msGpxCreator {
 	}
 	
 	/**
-	 * @param $waypoints
+	 * @param array $waypoints array of stopovers
 	 * @return $this
 	 * @throws Exception
 	 */
@@ -61,7 +61,7 @@ class msGpxCreator {
 	}
 	
 	/**
-	 * @param $trackpoints
+	 * @param array $trackpoints array of points along the route
 	 * @return $this
 	 * @throws Exception
 	 */
