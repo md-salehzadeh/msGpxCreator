@@ -1,3 +1,6 @@
+title: msGpxCreator
+description: a very lightweight script for creating Gpx files.
+
 theme: jekyll-theme-cayman
 show_downloads: true
 plugins:
